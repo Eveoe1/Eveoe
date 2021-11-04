@@ -69,7 +69,7 @@ RunBot:write([[
 cd $HOME/Eveoe
 token="]]..database:get(Server_Done.."Token_Write")..[["
 rm -fr Eveoe.lua
-wget "https://raw.githubusercontent.com/EveoeTEAM/Eveoe/main/Eveoe.lua"
+wget "https://raw.githubusercontent.com/Eveoe1/Eveoe/main/Eveoe.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./Eveoe.lua -p PROFILE --bot=$token
