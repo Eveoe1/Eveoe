@@ -1,9 +1,10 @@
+
 #!/usr/bin/env bash
-cd $HOME/TELAND
+cd $HOME/Eveoe
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x TELAND
+chmod +x Eveoe
 chmod +x Run
 ./Run
 }
@@ -31,4 +32,3 @@ fi
 installall
 
 lua install.lua
-
